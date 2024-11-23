@@ -1,0 +1,23 @@
+/* Ensure text starts on a new line and doesn't stretch unnecessarily */
+.list-item-container {
+    display: block;
+    word-wrap: break-word; /* Wrap text properly */
+    padding: 8px;
+  }
+  
+  .item-text {
+    margin: 0;
+    color: var(--text-color);
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Adjust padding and spacing on small screens */
+  @media screen and (max-width: 576px) {
+    .list-item-container {
+      padding: 4px;
+    }
+    .item-text {
+      font-size: 14px; /* Reduce font size on small screens */
+    }
+  }
+  
