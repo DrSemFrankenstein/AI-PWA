@@ -11,8 +11,8 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        {/* <Router basename="/pwa"> */}
-        <Router>
+        <Router basename="/ai-pwa">
+          {/* <Router> */}
           <App />
         </Router>
       </PersistGate>

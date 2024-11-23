@@ -4,6 +4,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 
 export default defineConfig({
+  base: '/ai-pwa/',
   plugins: [
     react(),
     VitePWA({
